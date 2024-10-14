@@ -1,0 +1,53 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.instructions {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.die-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.roll-dice {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.roll-dice:hover {
+  background-color: #45a049;
+}
